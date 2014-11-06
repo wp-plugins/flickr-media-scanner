@@ -3,7 +3,7 @@ Contributors: alancf
 Tags: flickr, photos, images
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: trunk
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,5 +26,10 @@ Flickr Media Scanner scans all your posts, looking for Flickr photos that are no
 1. Admin screen.
 
 == Changelog ==
+
+= 1.0.4 =
+* Disable de scan button while we query Flickr
+* Refactoring
+* Minor CSS changes
 
 == Upgrade Notice ==
