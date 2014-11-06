@@ -28,7 +28,7 @@ Flickr Media Scanner scans all your posts, looking for Flickr photos that are no
 == Changelog ==
 
 = 1.0.4 =
-* Disable de scan button while we query Flickr
+* Disable the scan button while we query Flickr
 * Refactoring
 * Minor CSS changes
 
