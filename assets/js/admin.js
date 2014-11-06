@@ -10,6 +10,8 @@ jQuery(document).ready(function() {
 
 	if(flickr_images.length > 0 && fms_api_key != '') {
 		doAjaxCall();
+		jQuery('#fms-scan').attr('disabled','disabled');
+		jQuery('#fms-scan').attr('value','Scanning...');
 	}
 
 });
@@ -34,5 +36,8 @@ function jsonFlickrApi(data) {
 	flickr_index++;
 	if(flickr_index < flickr_images.length) {
 		doAjaxCall();
+	} else {
+		jQuery('#fms-scan').removeAttr('disabled');
+		jQuery('#fms-scan').attr('value','Scan now');
 	}
 }
