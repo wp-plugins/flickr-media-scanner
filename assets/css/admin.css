@@ -1,0 +1,36 @@
+.fms-image-in-post {
+	float: left;
+	width: 60px;
+	height: 10px;
+	margin-left: 15px;
+}
+
+.fms-loading {
+	background-color: #c0c0c0;
+}
+
+.fms-ok {
+	background-color: green;
+}
+
+.fms-fail {
+	background-color: red;
+}
+
+.fms-label {
+	float: left;
+	font-size: 15px;
+	color: #fff;
+	margin-left: 15px;
+	padding: 7px 15px;
+}
+
+.fms-colors {
+	float: left;
+	clear: both;
+}
+
+.fms-posts-table {
+	float: left;
+	clear: both;
+}
