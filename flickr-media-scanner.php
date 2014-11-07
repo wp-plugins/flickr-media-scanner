@@ -2,7 +2,6 @@
 
 /*
  * Plugin Name: Flickr Media Scanner
- * Plugin URI: http://wordpress.org/extend/plugins/jetpack/
  * Description: Finds all Flickr photos used in posts that have been removed
  * Author: Alan Cesarini
  * Version: 1.0.4
